@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="X-UA_Compatiblr" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu primeiro site">
+    <meta name="keywords" content="front-end, html, css, javascript">
+    <meta name="author" content="Cícero">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+
+    <form> <!-- Início do formulário -->
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+
+        <br><br>
+
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" placeholder="Digite seu email aqui" required>
+
+        <br><br>
+        
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password" placeholder="Digite sua senha aqui" required>
+
+        <br><br>
+
+        <h2>Animal de estimação</h2>
+        
+        <input type="radio" id="dog" name="animal" value="cachorro">
+        <label for="dog">Cachorro</label>
+
+        <br><br>
+
+        <input type="radio" id="cat" name="animal" value="gato">
+        <label for="cat">Gato</label>
+
+        <br><br>
+
+        <input type="radio" id="bird" name="animal" value="passaro">
+        <label for="bird">Pássaro</label>
+
+        <br><br>
+
+        <h2>O que você tem em casa?</h2>
+
+        <input type="checkbox" id="item" name="item" value="TV">
+        <label for="item">TV</label><br></br>
+        <input type="checkbox" id="item2" name="item2" value="Geladeira">
+        <label for="item2">Geladeira</label><br><br>
+        <input type="checkbox" id="item3" name="item3" value="Computador">
+        <label for="item3">Computador</label>
+
+        <br><br>
+
+        <h2>Escolha uma cor:</h2>
+
+        <select>
+            <option selected disabled value>Selecione uma cor</option>
+            <option value="vermelho" style="background-color: red; color: white;">Vermelho</option>
+            <option value="azul" style="background-color: blue; color: white;">Azul</option>
+            <option value="roxo" style="background-color: purple; color: white;">Roxo</option>
+            <option value="amarelo" style="background-color: green; color: white;">Verde</option>
+        </select>
+
+        <br><br><br>
+
+        <h2>Digite sua mensagem</h2>
+
+        <textarea name="mensagem" placeholder="Digite aqui sua mensagem" rows="15" cols="55">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa illo, laboriosam tenetur, quia aliquid corrupti ipsum aut nemo debitis aliquam ut! Dolor ab minima, debitis tenetur totam delectus sit modi.</textarea>
+
+        <br><br>
+
+        <input type="submit" value="Enviar formulário"><br>
+
+    </form>
+
+</body>
+
+</html>
