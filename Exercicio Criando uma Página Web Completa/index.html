@@ -9,6 +9,27 @@
     <meta name="keywords" content="front-end, html, css, javascript">
     <meta name="author" content="Cícero">
     <title>Página web</title>
+
+    <style>
+        .video-50 {
+            float: left;
+            width: 30%;
+            text-align: center;
+            margin: 25px;
+        }
+    </style>
+
+    .video-50 {
+        float: left;
+    width: 30%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    box-sizing: border-box;
+    height: 100%; /* Ajuste a altura conforme necessário */
+}
+
 </head>
 
 <body>
@@ -203,7 +224,7 @@
 
     <!-- Música que o Deadpool dança -->
 
-    <h2>Múscia que o Deadpool dança no terceiro filme</h2>
+    <h2>Música que o Deadpool dança no terceiro filme</h2>
 
     <audio controls>
         <source src="audio/musica.mp3" type="audio/mpeg">
@@ -213,24 +234,26 @@
 
     <!-- Tag de vídeo -->
 
-    <h2>Trailers dos filmes</h2>
+    <h2 style="text-align: center; background-color: gray;">Trailers dos filmes</h2>
 
-    <div>
+    <section class="video-50">
         <h3>Trailer Deadpool</h3>
-        <video controls style="width: 25%;">
+        <video controls style="width: 300px;">
             <source src="video/Deadpool.mp4" type="video/mp4">
         </video>
-
+    </section>
+    <section class="video-50">
         <h3>Trailer Deadpool 2</h3>
-        <video controls style="width: 25%;">
+        <video controls style="width: 300px;">
             <source src="video/Deadpool-2.mp4" type="video/mp4">
         </video>
-
+    </section>
+    <section class="video-50">
         <h3>Trailer Deadpool e Wolverine</h3>
-        <video controls style="width: 25%;">
+        <video controls style="width: 300px;">
             <source src="video/Deadpool-e-Wolverine.mp4" type="video/mp4">
         </video>
-    </div>
+    </section>
 
 </body>
 
