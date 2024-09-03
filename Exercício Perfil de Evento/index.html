@@ -13,40 +13,182 @@
 </head>
 
 <body>
+    <!-- Header da página -->
     <header>
+        <!-- Links para navegação dentro da página -->
         <nav>
             <p>CM eventos</p>
             <a href="#Contato">Contato</a>
-            <a href="#Sobre">Sobre</a>
+            <a href="#Ingressos">Ingressos</a>
+            <a href="#Cronograma">Cronograma</a>
             <a href="#Eventos">Eventos</a>
+            <a href="#Sobre">Sobre</a>
         </nav>
 
-        <section>
+        <!-- Informações sobre os eventos -->
+        <section id="Sobre">
             <h1>Bem-vindo(a) à nossa página de Eventos!</h1>
 
             <p>
-                Aqui você encontrará tudo o que precisa saber sobre os melhores shows de Sertanejo, Piseiro e Forró. Se
-                você é apaixonado por música e dança, prepare-se para uma programação incrível, com as maiores estrelas
+                Aqui você encontrará tudo o que precisa saber sobre os melhores shows de Sertanejo e Piseiro. Se
+                você tem paixão por música e dança, prepare-se para uma programação incrível, com as maiores estrelas
                 do gênero e eventos imperdíveis que vão animar suas noites e finais de semana!</p>
         </section>
     </header>
-    
-    <h1 id="Eventos">PRÓXIMOS EVENTOS</h1>
 
+    <!-- Parte principal da página -->
     <main class="main">
+        <h1 id="Eventos">PRÓXIMOS EVENTOS</h1>
 
-        <section id="Piseiro">
-            <img src="img/LOGO-PIZRO.webp" alt="Logo festival piseiro">
+        <!-- Imagens e informações sobre os eventos -->
+        <div class="container">
+            <section id="Piseiro">
+                <div class="imagem"></div>
+                <div class="info">
+                    <p>Festival de Piseiro</p>
+                    <p>25 de Setembro</p>
+                </div>
+            </section>
+            <section id="Sertanejo">
+                <div class="imagem"></div>
+                <div class="info">
+                    <p>Festival Sertanejo</p>
+                    <p>27 de Janeiro</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Citação -->
+        <section class="citação">
+            <blockquote>
+                <p>"A dor do amor é com outro amor que a gente cura."</p>
+                <footer>- Bruno e Marrone</footer>
+            </blockquote>
         </section>
 
-        <section id="Sertanejo">
-            <img src="img/festeja.png" alt="Logo festival festeja">
+        <!-- Galeria de imagens -->
+        <section class="galeria">
+            <h2>Galeria</h2>
+            <img src="img/pizrobr-evento.jpg" alt="Imagem do evento">
+            <img src="img/pizrobr-pergunta.jpg" alt="Imagem do evento">
+            <img src="img/festejaoficial-evento.jpg" alt="Imagem do evento">
+            <img src="img/festejaoficial-pergunta.jpg" alt="Imagem do evento">
         </section>
 
-        <section id="Forro">
-            <img src="img/sao-joao.png" alt="Logo festa São João">
+        <!-- Tabelas -->
+        <section class="tabela" id="Cronograma">
+            <h2>Cronograma Pizro</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Atração</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>19:00</td>
+                        <td>Vitor Fernandes</td>
+                    </tr>
+                    <tr>
+                        <td>21:00</td>
+                        <td>João Gomes</td>
+                    </tr>
+                    <tr>
+                        <td>23:00</td>
+                        <td>Tarcísio do Acordeon</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Cronograma Festeja</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Atração</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>19:00</td>
+                        <td>Zé Neto e Cristiano</td>
+                    </tr>
+                    <tr>
+                        <td>21:00</td>
+                        <td>Jorge e Mateus</td>
+                    </tr>
+                    <tr>
+                        <td>23:00</td>
+                        <td>Bruno e Marrone</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
+
+        <!-- Videos -->
+        <section class="video">
+            <h2>Edições anteriores</h2>
+            <video controls>
+                <source src="video/pizrobr.mp4" type="video/mp4">
+            </video>
+
+            <video controls>
+                <source src="video/festejaoficial.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <!-- Formulário para compra de ingressos -->
+        <section class="ingressos" id="Ingressos">
+            <h2>Ingressos para os eventos</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="nome">E-mail:</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="nome">Telefone:</label>
+                <input type="text" name="name" id="name" required>
+
+                <!-- Formulário para escolher para qual dos eventos será o ingresso -->
+                <div class="selecionar">
+                    <input type="radio" id="Pizro" name="ingresso" value="Pizro">
+                    <label for="Pizro">Pizro</label>
+
+                    <input type="radio" id="Festeja" name="ingresso" value="Festeja">
+                    <label for="Festeja">Festeja</label>
+                </div>
+
+                <!-- Botão para enviar as informações -->
+                <input type="submit" value="Ingressos">
+            </form>
+        </section>
+
+        <!-- Músicas -->
+        <section class="audio">
+            <h2>Sinta a vibe dos festivais</h2>
+
+            <p>Boate Azul - Bruno e Marrone</p>
+            <audio controls>
+                <source src="audio/Boate Azul.mp3">
+            </audio>
+
+            <p>Meu Bem - João Gomes</p>
+            <audio controls>
+                <source src="audio/Meu Bem.mp3">
+            </audio>
+        </section>
+
     </main>
+
+    <footer class="footer" id="Contato">
+        <div class="footer-info">
+            <p><strong>Telefone:</strong> (61) 1234-5678</p>
+            <p><strong>Endereço:</strong> Brasília, Distrito Federal</p>
+            <p><strong>E-mail:</strong> cmeventos.contato@gmail.com</p>
+        </div>
+    </footer>
 </body>
 
 </html>
