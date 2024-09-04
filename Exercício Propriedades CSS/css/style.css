@@ -1,0 +1,228 @@
+/* Exercício 2 */
+.ex01 {
+    text-align: center;
+    padding-top: 150px;
+    width: 33%;
+    height: 200px;
+    background: gray;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Exercício 2 */
+.botao {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Adiciona um cursor de pointer ao passar o mouse sobre o botão */
+    font-size: 1em;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+.botao:hover {
+    background: #45a049;
+    
+}
+
+/* Exercício 3 */
+.caixa-aviso {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    padding: 15px;
+    color: #721c24;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+}
+
+.caixa-aviso p {
+    margin: 0;
+}
+
+/* Exercício 4 */
+.card-perfil {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagem-perfil {
+    border-radius: 50%;
+}
+
+.nome {
+    font: 1em sans-serif;
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #333;
+    margin: 40px;
+}
+
+.descricao {
+    font-size: 1em;
+}
+
+/* Exercício 5 */
+.testemunhos {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #333;
+    padding-left: 16px;
+    margin: 0;
+}
+
+blockquote footer {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Exercício 6 */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav a {
+    color: white;
+    padding: 14px 16px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #575757; /* Adiciona um efeito de hover */
+}
+
+/* Exercício 7 */
+.tabela-info {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse; /* Remove espaços entre bordas das células */
+    margin: 20px auto;
+}
+
+.tabela-info th, .tabela-info td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabela-info thead {
+    background-color: #f4f4f4;
+}
+
+.tabela-info th {
+    font-weight: bold;
+}
+
+/* Exercício 8 */
+.caixa-comentario {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao redor da caixa */
+}
+
+.autor {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.comentario {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Exercício 9 */
+.cabecalho {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 1.2em;
+    margin: 10px 0 0;    
+}
+
+/* Exercício 10 */
+.formulario-contato {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao redor do formulário */
+}
+
+.formulario-contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-campo {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.botao-enviar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Adiciona um cursor de pointer ao passar o mouse sobre o botão */
+    font-size: 1em;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+.botao-enviar:hover {
+    background-color: #45a049;
+}
