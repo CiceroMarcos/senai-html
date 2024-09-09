@@ -1,0 +1,106 @@
+body {
+    background-image: url("../img/01.png");
+}
+
+/* Mario */
+#mario {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 130px;
+    left: 180px;
+}
+
+/* Nuvens */
+#nuvens {
+    width: 250px;
+    height: 220px;
+    position: fixed;
+    top: 20px;
+    left: 750px;
+}
+
+/* Blocos */
+#bloco {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 200px;
+    left: 550px;
+}
+
+#bloco2 {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 200px;
+    left: 650px;
+}
+
+#bloco3 {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 200px;
+    left: 750px;
+}
+
+#bloco4 {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 200px;
+    left: 200px;
+}
+
+#interrogacao {
+    width: 60px;
+    height: 55px;
+    position: fixed;
+    bottom: 203px;
+    left: 600px;
+}
+
+#interrogacao2 {
+    width: 60px;
+    height: 55px;
+    position: fixed;
+    bottom: 203px;
+    left: 700px;
+}
+
+#interrogacao3 {
+    width: 60px;
+    height: 55px;
+    position: fixed;
+    top: 300px;
+    left: 650px;
+}
+
+/* Goomba */
+#goomba {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    left: 400px;
+}
+
+/* Cano */
+#cano {
+    width: 70px;
+    height: 90px;
+    position: fixed;
+    bottom: 20px;
+    right: 300px;
+}
+
+/* Chão */
+#chao {
+    width: 100%;
+    height: 20px;
+    bottom: 1px;
+    left: 0;
+    position: fixed;
+    background: green;
+}
